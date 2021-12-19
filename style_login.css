@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  display: flex;
+  background-color: blanchedalmond;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 550px;
+  border-radius: 10px;
+  border: black;
+}
+#main h1 {
+  color: red;
+  /* background-color: rosybrown; */
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main input {
+  /* margin-top: 10px; */
+  height: 30px;
+  width: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.button_div {
+  display: flex;
+  flex-direction: row;
+}
+
+.reg_btn {
+  display: flex;
+  margin-left: 400px;
+}
